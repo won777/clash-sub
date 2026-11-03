@@ -675,17 +675,9 @@ proxies:
   type: ss
   udp: true
 proxy-groups:
-- name: 🚀 节点选择
+- name: 手動選擇
   type: select
-  proxies:
-  - ♻️ 自动选择
-  - F·freevpnkeys
-  - X·xrayvip
-- name: ♻️ 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
+  proxies: &id001
   - 'F·🛡️ Белый список РФ #01 • VLESS (2149ms)'
   - 'F·🛡️ Белый список РФ #02 • VLESS (1547ms)'
   - 'F·🛡️ Белый список РФ #03 • VLESS (2542ms)'
@@ -742,6 +734,18 @@ proxy-groups:
   - X·US【机场推荐：https://a9a.xyz】23
   - X·US【机场推荐：https://a9a.xyz】24
   - X·RU【机场推荐：https://a9a.xyz】25
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - 手動選擇
+  - ♻️ 自动选择
+  - F·freevpnkeys
+  - X·xrayvip
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies: *id001
 - name: F·freevpnkeys
   type: select
   proxies:
