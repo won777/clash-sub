@@ -5,269 +5,22 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🛡️ Белый список РФ #01 • VLESS (2149ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk
-    short-id: b20168a5
-  server: 81.163.22.194
-  servername: apply.betust.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb37d713-0ed3-4146-b085-a5c879a9aafa
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🛡️ Белый список РФ #02 • VLESS (1547ms)'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
-    short-id: a1b2c3d4e5f6a7b8
-  server: xnod13x.artemida.live
-  servername: xnod13x.artemida.live
-  tls: true
-  type: vless
-  udp: true
-  uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
-- client-fingerprint: firefox
-  name: 'F·🛡️ Белый список РФ #03 • VLESS (2542ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
-    short-id: 257420d9d430152a
-  server: a0688bt.us4.h1clayd.click
-  servername: a0688bt.us4.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- name: 'F·🛡️ Белый список РФ #04 • VLESS (1911ms)'
+- name: 'F·🛡️ Белый список РФ #01 • VLESS (2003ms)'
   network: ws
   port: 443
-  server: 91.185.83.44
-  servername: nguyxejonb.rucdncomp.pro
+  server: 185.86.147.175
+  servername: bhjolq0d0l.flowersgood.top
   tls: true
   type: vless
   udp: true
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
+  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
   ws-opts:
     headers:
-      Host: nguyxejonb.rucdncomp.pro
-    path: /service/telemetry/0294da469190/
+      Host: bhjolq0d0l.flowersgood.top
+    path: /service/telemetry/045d381f1166/
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'F·✨ Для Gemini #01 • 🇺🇸 [US] VLESS (112ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.35
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: firefox
-  name: 'F·✨ Для Gemini #02 • 🇳🇱 [NL] VLESS (1699ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YWhH3_lunQFxpqA29GF-Hq1K78hdSsy0h3E5dVbxImA
-    short-id: 371f6e
-  server: 89.110.64.15
-  servername: graphs.4cdn.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 913dc759-8639-4890-9bfc-a9acdc5090cf
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·✨ Для Gemini #03 • 🇸🇬 [SG] VLESS (994ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZVMW8jnFE_zxUQjSsZVDaqOY13RGrdnHivXWdXxFhxg
-    short-id: d7fd
-  server: 162.4.172.55
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 780fab9a-e5be-470c-8c31-51640779ba2c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·✨ Для Gemini #04 • 🇺🇸 [US] VLESS (444ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
-    short-id: ''
-  server: 177.202.66.159
-  servername: sundaylanzgem.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-- alterId: 0
-  cipher: auto
-  name: 'F·🇩🇪 DE #03 • VMESS TLS (2854ms)'
-  network: ws
-  port: 443
-  server: 37.220.161.249
-  servername: renderer-stream-2-129.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-129.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: firefox
-  name: 'F·🇩🇪 DE #04 • VLESS Reality (1144ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -Kj5RBoDmULkrxxd6qNDAfpfoPpL9DY07FRVM_TME1M
-    short-id: 30eb12b1050ee52d
-  server: 185.255.115.58
-  servername: 5e094at.de27.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ceda178-78fe-4695-a1ef-a591ae7a2c97
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇸🇪 SE #02 • VLESS Reality (612ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: K9lBgPuNBiA17qG7knaJvvH9vw2ec4b_UwmU6eOocFE
-    short-id: afee962d
-  server: 80.66.78.88
-  servername: sw02.launch.tel
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5cccbd26-d910-4312-9c3d-8564821fbc53
-- auth: 769f34f0-1500-488f-b414-03bc90666502
-  name: 'F·🇸🇪 SE #03 • HYSTERIA2 TLS (723ms)'
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  port: 443
-  server: se.mimowhat.online
-  sni: se.mimowhat.online
-  type: hysteria2
-- name: 'F·🇳🇱 NL #02 • VLESS TLS (466ms)'
-  network: ws
-  port: 443
-  server: 185.86.145.37
-  servername: rar.rtkdvbr.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 135aa7e5-87af-4df2-a9f0-0c4eaea0c492
-  ws-opts:
-    headers:
-      Host: rar.rtkdvbr.cc
-    path: /amws
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇳🇱 NL #04 • VLESS Reality (1338ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xEDYfxVdiRkY-z7qiUvoly7fYDz4U6wI5p69oNbjWA4
-    short-id: f9d991431c87703c
-  server: vdsin.xvanta.online
-  servername: vdsin.xvanta.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71b566cb-78c4-48e4-af5b-720e4f7884f2
-- auth: 4536b7a7-eb90-42ce-b45d-5190dfc83701
-  name: 'F·🇷🇺 RU #01 • HYSTERIA2 TLS [Белый список] (2198ms)'
-  password: 4536b7a7-eb90-42ce-b45d-5190dfc83701
-  port: 443
-  server: 185.231.204.81
-  sni: alder.sanriodevgroup.org
-  type: hysteria2
-- name: 'F·🇷🇺 RU #02 • VLESS TLS [Белый список] (522ms)'
-  network: ws
-  port: 443
-  server: 185.229.9.135
-  servername: lesotorg-kirov.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03c478b6-93fb-43aa-9fa1-73ced8a13caf
-  ws-opts:
-    headers:
-      Host: lesotorg-kirov.ru
-    path: /chws
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇷🇺 RU #03 • VLESS Reality [Белый список] (1364ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xTePrM5IyjR8o52B2mRAO2nNivfyMpBZxya93MQk4Qc
-    short-id: 2a40b6d6495debf3
-  server: 147.45.161.4
-  servername: defs-68.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇷🇺 RU #04 • VLESS Reality [Белый список] (793ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI
-    short-id: 0f19f0c8102dc695
-  server: 89.19.223.227
-  servername: d3-ru.cloud-cdn.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 645168d4-22a4-4217-9b3e-d94b7ab5bffa
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇵🇱 PL #01 • VLESS Reality (1013ms)'
-  network: tcp
-  port: 2096
-  reality-opts:
-    public-key: 26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4
-    short-id: 2a096f7b298d0aba
-  server: 217.19.122.170
-  servername: bm8.hat.onl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00d09ead-4080-4c39-a75d-be7dcabe77f4
-- name: 'F·🇵🇱 PL #02 • VLESS TLS (1243ms)'
-  network: ws
-  port: 28452
-  server: 84.23.52.120
-  servername: pl.sparxiecn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
-  ws-opts:
-    headers:
-      Host: pl.sparxiecn.com
-    path: /lovelive
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇮🇹 IT #01 • VLESS Reality (489ms)'
+  name: 'F·✨ Для Gemini #01 • 🇮🇹 [IT] VLESS (1393ms)'
   network: tcp
   port: 443
   reality-opts:
@@ -280,438 +33,501 @@ proxies:
   udp: true
   uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-90
-  name: 'F·🇮🇪 IE #01 • VLESS Reality (757ms)'
-  network: grpc
+  name: 'F·✨ Для Gemini #02 • 🇩🇪 [DE] VLESS (655ms)'
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: 9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0
-    short-id: cbc638acc8ac87
-  server: 195.123.189.217
-  servername: max.ru
+    public-key: -oJS0Rw7oLz0audAETu1-RuJSZCBMcAjFMVDmD40YSU
+    short-id: 9cb329df19cc45e8
+  server: 93.152.211.119
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 63959ed7-d26f-48dd-8c7b-ebdb6ea68535
+  uuid: 6d987d5d-90d4-4bea-97fe-6b0610e40ff4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·✨ Для Gemini #03 • 🇺🇸 [US] VLESS (145ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·✨ Для Gemini #04 • 🇳🇱 [NL] VLESS (363ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gJoMHh97teLxW92Z_3DI8qdSulqBlb9sW6mthYPEEBk
+    short-id: d889ac17
+  server: 50.7.95.226
+  servername: main.jarbook.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
 - client-fingerprint: firefox
   grpc-opts:
-    grpc-service-name: stats.v2.PushService
-  name: 'F·🇲🇩 MD #01 • VLESS Reality (1102ms)'
+    grpc-service-name: hub.v1.ApiService
+  name: 'F·▶️ Для YouTube #03 • 🇲🇩 [MD] VLESS (415ms)'
   network: grpc
   port: 443
   reality-opts:
-    public-key: q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ
-    short-id: 9a72d40f1ff882b3
-  server: 89.35.14.32
-  servername: md3.univesalsrv.com
+    public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+    short-id: 8e07337954f9823f
+  server: 89.35.14.33
+  servername: md4.univesalsrv.com
   tls: true
   type: vless
   udp: true
   uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'F·🇨🇦 CA #01 • VLESS Reality (132ms)'
+  name: 'F·🇩🇪 DE #04 • VLESS Reality (1506ms)'
   network: tcp
   port: 443
   reality-opts:
-    public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
-    short-id: 027af64166562b09
-  server: 78.17.93.30
-  servername: ca1.fox-lisa.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇦🇱 AL #01 • VLESS Reality (443ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gTUnUbw-NeqnTyW5FfixJU4uVQLbSKs3chpphO1aMHY
-    short-id: c4f2e1cc1a56fc13
-  server: 130.49.189.36
-  servername: alb-4vp.fast-cdn24.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4460652a-ac34-454d-a119-afe8f4dde1a0
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'F·🇷🇴 RO #01 • VLESS Reality (2999ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Cw04nkURk7InPCPZl-0PovP44rh5o74dMHBUFOsjFig
-    short-id: a1b2c3d4e5f60718
-  server: cdn-rum-n9kardx-q74mle.keno.su
-  servername: cdn-rum-n9kardx-q74mle.keno.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
-- client-fingerprint: firefox
-  name: 'F·🇷🇴 RO #02 • VLESS Reality (1624ms)'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: _LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
     short-id: ''
-  server: 80.96.108.29
-  servername: md.gorobsub.com
+  server: 217.60.27.78
+  servername: music.3apes.online
   tls: true
   type: vless
   udp: true
-  uuid: 11512726-b692-406f-ab49-7b28f44a8294
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'F·🇷🇴 RO #03 • VLESS Reality (585ms)'
+  name: 'F·🇵🇱 PL #02 • VLESS Reality (790ms)'
   network: tcp
   port: 443
   reality-opts:
-    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
-    short-id: 7f1e29593aa94ad1
-  server: 94.183.234.245
-  servername: www.bing.com
+    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
+    short-id: 5037f0423dc4e4ff
+  server: 138.124.64.236
+  servername: pl3.japancase.site
   tls: true
   type: vless
   udp: true
-  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
-- client-fingerprint: firefox
-  name: 'F·🇭🇰 HK #01 • VLESS Reality (1151ms)'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: npOtPP-gIOAg3Ltra8XJpvpIm3l4FtDKxqrUtSrPOT0
-    short-id: f76d89d0
-  server: 182.16.62.14
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5bfa133a-76d4-425c-b8d4-72cd2ff18198
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'F·🇰🇪 KE #01 • VLESS Reality (1102ms)'
+  name: 'F·🇺🇸 US #02 • VLESS Reality (735ms)'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
-    short-id: 3c6fc84d
-  server: 45.150.189.211
-  servername: stats.vk-portal.net
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  server: 50.7.227.77
+  servername: bizorg.su
   tls: true
   type: vless
   udp: true
-  uuid: 3cd95e58-9f0a-47e1-9937-64a58e949aa5
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
 - client-fingerprint: firefox
-  name: 'F·🇬🇧 GB #01 • VLESS Reality (263ms)'
+  name: 'F·🇺🇸 US #03 • VLESS Reality (561ms)'
   network: xhttp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: bRtDyXYrSK7YP6zKZGTUIVfNlpilQViJ4ih_43oSWnU
-    short-id: c9ea2355ddeab39b
-  server: 95.163.153.141
-  servername: www.cloudflare.com
+    public-key: 7T1P1SUjOmgdvYnEyjnBxeo0pI3ilNgY8DPxC3y-6w0
+    short-id: a7d31f9c82e64b50
+  server: 162.35.102.51
+  servername: bridgestone.best
   tls: true
   type: vless
   udp: true
-  uuid: 04cbe9ea-9791-4195-827f-5d4cabbdba10
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'F·🇨🇿 CZ #01 • VLESS Reality (884ms)'
+  name: 'F·🇺🇸 US #04 • VLESS Reality (547ms)'
   network: tcp
   port: 443
   reality-opts:
-    public-key: IiBlvTjhPXcCixjqH6n6Cz3RWbeQjHepWtfIi28mly4
-    short-id: 9f2c4a7b1d6e8035
-  server: 89.125.237.245
-  servername: www.google.com
+    public-key: FFsBozg2vRN-wNNsv6Y97sbr4EF5aIHiYF7-xHa_9Fk
+    short-id: ''
+  server: 72.56.40.137
+  servername: usatimewebnew.space
   tls: true
   type: vless
   udp: true
-  uuid: a44a1eab-1f2d-435e-b324-3c9e73d975bc
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】1
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: X·CA【机场推荐：https://a9a.xyz】2
-  network: ws
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+- client-fingerprint: firefox
+  name: 'F·🇳🇱 NL #02 • VLESS Reality (1370ms)'
+  network: tcp
   port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
+  reality-opts:
+    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
+    short-id: c71118d9399fb8c2
+  server: 79.182.70.192
+  servername: 15d7fft.nl11.h1clayd.click
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】3
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇳🇱 NL #03 • VLESS Reality (615ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: ''
+  server: 78.159.250.107
+  servername: qq.utiltools.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇳🇱 NL #04 • VLESS Reality (3104ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: ee1716767f9b
+  server: 193.124.17.190
+  servername: www.tradingview.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇱🇹 LT #01 • VLESS Reality (960ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
+    short-id: 7c8e3d4a9b1f26d3
+  server: litauto.plus-hit.ru
+  servername: litauto.plus-hit.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f9c913b-0b78-4d14-a4db-560794cbc90f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇨🇦 CA #01 • VLESS Reality (737ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oTsYnjjxzyoBI2rJn0TjihgaOcNMPa9bNwHhp4RdDkg
+    short-id: be7d0c9dda4dd4e6
+  server: 185.218.17.172
+  servername: canwec.kramiliantha.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed1d539a-8507-45de-8253-cbc272161473
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇨🇭 CH #01 • VLESS Reality (2548ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aDPUHTNsFayZUVXWHtlXjbRuiZmWsMFbOTKZoBBRQRw
+    short-id: cedd9e53fc8e7777
+  server: bananapococoho.izzzyvpn.space
+  servername: bananapococoho.izzzyvpn.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ee8000e-209e-4d88-8a0f-e963edfe45b2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'F·🇷🇺 RU #01 • VLESS Reality [Белый список] (1007ms)'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI
+    short-id: ''
+  server: 217.25.93.165
+  servername: yoy-api.bachidze.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
+- auth: 769f34f0-1500-488f-b414-03bc90666502
+  name: 'F·🇸🇪 SE #01 • HYSTERIA2 TLS (750ms)'
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: 95.143.196.97
+  sni: se.mimowhat.online
+  type: hysteria2
+- name: X·IT【机场推荐：https://a9a.xyz】1
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】4
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 202.50.253.27
   port: 19999
-  server: 202.50.253.54
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】2
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】5
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】6
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】7
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】8
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】9
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: X·IT【机场推荐：https://a9a.xyz】10
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
   server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】3
   type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- client-fingerprint: firefox
-  name: X·NL【机场推荐：https://a9a.xyz】11
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: 79.182.39.236
-  servername: www.chip.de
-  tls: true
+- name: X·IT【机场推荐：https://a9a.xyz】4
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】5
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】6
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】7
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】8
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·IT【机场推荐：https://a9a.xyz】9
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: X·KZ【机场推荐：https://a9a.xyz】10
   type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- client-fingerprint: firefox
-  name: X·NL【机场推荐：https://a9a.xyz】12
-  port: 443
-  reality-opts:
-    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
-    short-id: 257420d9d430152a
-  server: 79.182.39.57
-  servername: a0688bt.us4.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- client-fingerprint: firefox
+  server: 85.202.192.131
+  port: 34033
+  uuid: 2cb6a5d1-0165-4bc2-aff2-832672160c56
   flow: xtls-rprx-vision
-  name: X·RU【机场推荐：https://a9a.xyz】13
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: splitter.wb.ru
+  reality-opts:
+    public-key: I7s_V_6XHD2As0H5Ok2GV2a2M7o9RDCrH2USpCZPy0A
+    short-id: a1fdf7b7bebade41
+- name: X·SG【机场推荐：https://a9a.xyz】11
+  type: vless
+  server: 43.163.112.174
   port: 443
-  reality-opts:
-    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
-    short-id: 97a15f5af85c4a30
-  server: 213.159.209.66
-  servername: ru11.oshost.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-- client-fingerprint: chrome
-  name: X·NL【机场推荐：https://a9a.xyz】14
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: de15.h1cloud.net
-  servername: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- client-fingerprint: chrome
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
   flow: xtls-rprx-vision
-  name: X·RU【机场推荐：https://a9a.xyz】15
-  port: 443
-  reality-opts:
-    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
-    short-id: 97a15f5af85c4a30
-  server: ru11.oshost.network
-  servername: ru11.oshost.network
-  tls: true
-  type: vless
   udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-- client-fingerprint: firefox
-  name: X·RU【机场推荐：https://a9a.xyz】16
-  port: 443
-  reality-opts:
-    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
-    short-id: 50ad5564
-  server: 186.246.9.29
-  servername: wordpress.com
   tls: true
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+    short-id: 0123456789abcdef
+- name: X·AT【机场推荐：https://a9a.xyz】12
   type: vless
+  server: at1.japancase.site
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
   udp: true
-  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
-- flow: xtls-rprx-vision
-  name: X·DE【机场推荐：https://a9a.xyz】17
-  port: 20065
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
+  tls: true
+  client-fingerprint: edge
+  servername: at1.japancase.site
+  reality-opts:
+    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+    short-id: 41ae8e266bc3346f
+- name: X·AT【机场推荐：https://a9a.xyz】13
+  type: vless
+  server: 178.22.31.72
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  servername: at1.japancase.site
+  reality-opts:
+    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+    short-id: 41ae8e266bc3346f
+- name: X·PL【机场推荐：https://a9a.xyz】14
+  type: vless
+  server: 5.104.74.69
+  port: 8443
+  uuid: c6320c2e-15b3-4c3f-9d5a-d371828ea818
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  servername: uk-room06.filesnap.tech
+  reality-opts:
+    public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
+    short-id: 17a35165f9d25923
+- name: X·CA【机场推荐：https://a9a.xyz】15
+  type: vless
+  server: 212.69.135.27
+  port: 8443
+  uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: uk-room05.filesnap.tech
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+- name: X·PL【机场推荐：https://a9a.xyz】16
+  type: vless
+  server: 5.104.74.27
+  port: 8443
+  uuid: 857e5668-88b9-45cd-a600-79e55c04d8a8
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: uk-room07.filesnap.tech
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+- name: X·FR【机场推荐：https://a9a.xyz】17
+  type: vless
+  server: 179.253.98.66
+  port: 8443
+  uuid: af185070-7170-46a8-b1e9-d61a035f4691
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: skskks.top
+  network: grpc
+  reality-opts:
+    public-key: am-3rjmrITvv3q3smauPEtMZYnwvt-48611YJfKQhig
+    short-id: e722d6ff
+  grpc-opts:
+    grpc-service-name: ''
+- name: X·PL【机场推荐：https://a9a.xyz】18
+  type: vless
+  server: 5.104.74.129
+  port: 8443
+  uuid: 27974bac-4f89-4c54-a403-0bc1e1a52919
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  servername: uk-room05.filesnap.tech
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+- name: X·PL【机场推荐：https://a9a.xyz】19
+  type: vless
+  server: 5.104.74.70
+  port: 8443
+  uuid: 176b50a0-cce0-416d-bc4c-6694271985dd
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  servername: uk-room07.filesnap.tech
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+- name: X·HK【机场推荐：https://a9a.xyz】20
+  type: vless
+  server: 152.175.6.229
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
   skip-cert-verify: false
-  tls: true
+  servername: hk010.zestapp778.com
+- name: X·PL【机场推荐：https://a9a.xyz】21
   type: vless
-  udp: true
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
-- client-fingerprint: firefox
+  server: 5.104.74.25
+  port: 8443
+  uuid: c1f87d4d-3ea2-4378-925a-b4942e930a7d
   flow: xtls-rprx-vision
-  name: X·GB【机场推荐：https://a9a.xyz】18
-  port: 443
-  reality-opts:
-    public-key: tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338
-    short-id: 59d2296aa6320c76
-  server: 132.243.207.154
-  servername: get-37.topp-con.xyz
+  udp: true
   tls: true
+  client-fingerprint: firefox
+  servername: uk-room07.filesnap.tech
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+- name: X·GB【机场推荐：https://a9a.xyz】22
   type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- cipher: chacha20-ietf-poly1305
-  name: X·HK【机场推荐：https://a9a.xyz】19
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40006
-  server: xunlinknode.csdjhajkshdjkas.com
-  type: ss
-  udp: true
-- client-fingerprint: firefox
+  server: prime.jarbook.net
+  port: 443
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
   flow: xtls-rprx-vision
-  name: X·NL【机场推荐：https://a9a.xyz】20
-  port: 443
+  udp: true
+  tls: true
+  client-fingerprint: firefox
+  servername: prime.jarbook.net
   reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: e6d589857d1cec5e
-  server: 154.86.119.158
-  servername: fr.golangwikito.cfd
-  tls: true
+    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
+    short-id: 77a8c8c8
+- name: X·NL【机场推荐：https://a9a.xyz】23
   type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-- name: X·CA【机场推荐：https://a9a.xyz】22
-  network: ws
+  server: 100497t.de18.h1clayd.click
   port: 443
-  server: 172.67.159.207
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
+  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
+  udp: true
   tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: X·US【机场推荐：https://a9a.xyz】23
-  port: 443
+  client-fingerprint: firefox
+  servername: 100497t.de18.h1clayd.click
   reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: c33807f76b689c9a
-  server: 179.254.92.134
-  servername: assets-70.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: X·US【机场推荐：https://a9a.xyz】24
-  port: 443
-  reality-opts:
-    public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
-    short-id: bdaddda4cbc8c7bf
-  server: 192.177.26.55
-  servername: repo-16.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- cipher: aes-256-gcm
-  name: X·RU【机场推荐：https://a9a.xyz】25
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.46.27
-  type: ss
-  udp: true
+    public-key: x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A
+    short-id: 5be240e45d3c445c
 proxy-groups:
 - name: 手動選擇
   type: select
   proxies: &id001
-  - 'F·🛡️ Белый список РФ #01 • VLESS (2149ms)'
-  - 'F·🛡️ Белый список РФ #02 • VLESS (1547ms)'
-  - 'F·🛡️ Белый список РФ #03 • VLESS (2542ms)'
-  - 'F·🛡️ Белый список РФ #04 • VLESS (1911ms)'
-  - 'F·✨ Для Gemini #01 • 🇺🇸 [US] VLESS (112ms)'
-  - 'F·✨ Для Gemini #02 • 🇳🇱 [NL] VLESS (1699ms)'
-  - 'F·✨ Для Gemini #03 • 🇸🇬 [SG] VLESS (994ms)'
-  - 'F·✨ Для Gemini #04 • 🇺🇸 [US] VLESS (444ms)'
-  - 'F·🇩🇪 DE #03 • VMESS TLS (2854ms)'
-  - 'F·🇩🇪 DE #04 • VLESS Reality (1144ms)'
-  - 'F·🇸🇪 SE #02 • VLESS Reality (612ms)'
-  - 'F·🇸🇪 SE #03 • HYSTERIA2 TLS (723ms)'
-  - 'F·🇳🇱 NL #02 • VLESS TLS (466ms)'
-  - 'F·🇳🇱 NL #04 • VLESS Reality (1338ms)'
-  - 'F·🇷🇺 RU #01 • HYSTERIA2 TLS [Белый список] (2198ms)'
-  - 'F·🇷🇺 RU #02 • VLESS TLS [Белый список] (522ms)'
-  - 'F·🇷🇺 RU #03 • VLESS Reality [Белый список] (1364ms)'
-  - 'F·🇷🇺 RU #04 • VLESS Reality [Белый список] (793ms)'
-  - 'F·🇵🇱 PL #01 • VLESS Reality (1013ms)'
-  - 'F·🇵🇱 PL #02 • VLESS TLS (1243ms)'
-  - 'F·🇮🇹 IT #01 • VLESS Reality (489ms)'
-  - 'F·🇮🇪 IE #01 • VLESS Reality (757ms)'
-  - 'F·🇲🇩 MD #01 • VLESS Reality (1102ms)'
-  - 'F·🇨🇦 CA #01 • VLESS Reality (132ms)'
-  - 'F·🇦🇱 AL #01 • VLESS Reality (443ms)'
-  - 'F·🇷🇴 RO #01 • VLESS Reality (2999ms)'
-  - 'F·🇷🇴 RO #02 • VLESS Reality (1624ms)'
-  - 'F·🇷🇴 RO #03 • VLESS Reality (585ms)'
-  - 'F·🇭🇰 HK #01 • VLESS Reality (1151ms)'
-  - 'F·🇰🇪 KE #01 • VLESS Reality (1102ms)'
-  - 'F·🇬🇧 GB #01 • VLESS Reality (263ms)'
-  - 'F·🇨🇿 CZ #01 • VLESS Reality (884ms)'
+  - 'F·🛡️ Белый список РФ #01 • VLESS (2003ms)'
+  - 'F·✨ Для Gemini #01 • 🇮🇹 [IT] VLESS (1393ms)'
+  - 'F·✨ Для Gemini #02 • 🇩🇪 [DE] VLESS (655ms)'
+  - 'F·✨ Для Gemini #03 • 🇺🇸 [US] VLESS (145ms)'
+  - 'F·✨ Для Gemini #04 • 🇳🇱 [NL] VLESS (363ms)'
+  - 'F·▶️ Для YouTube #03 • 🇲🇩 [MD] VLESS (415ms)'
+  - 'F·🇩🇪 DE #04 • VLESS Reality (1506ms)'
+  - 'F·🇵🇱 PL #02 • VLESS Reality (790ms)'
+  - 'F·🇺🇸 US #02 • VLESS Reality (735ms)'
+  - 'F·🇺🇸 US #03 • VLESS Reality (561ms)'
+  - 'F·🇺🇸 US #04 • VLESS Reality (547ms)'
+  - 'F·🇳🇱 NL #02 • VLESS Reality (1370ms)'
+  - 'F·🇳🇱 NL #03 • VLESS Reality (615ms)'
+  - 'F·🇳🇱 NL #04 • VLESS Reality (3104ms)'
+  - 'F·🇱🇹 LT #01 • VLESS Reality (960ms)'
+  - 'F·🇨🇦 CA #01 • VLESS Reality (737ms)'
+  - 'F·🇨🇭 CH #01 • VLESS Reality (2548ms)'
+  - 'F·🇷🇺 RU #01 • VLESS Reality [Белый список] (1007ms)'
+  - 'F·🇸🇪 SE #01 • HYSTERIA2 TLS (750ms)'
   - X·IT【机场推荐：https://a9a.xyz】1
-  - X·CA【机场推荐：https://a9a.xyz】2
+  - X·IT【机场推荐：https://a9a.xyz】2
   - X·IT【机场推荐：https://a9a.xyz】3
   - X·IT【机场推荐：https://a9a.xyz】4
   - X·IT【机场推荐：https://a9a.xyz】5
@@ -719,21 +535,20 @@ proxy-groups:
   - X·IT【机场推荐：https://a9a.xyz】7
   - X·IT【机场推荐：https://a9a.xyz】8
   - X·IT【机场推荐：https://a9a.xyz】9
-  - X·IT【机场推荐：https://a9a.xyz】10
-  - X·NL【机场推荐：https://a9a.xyz】11
-  - X·NL【机场推荐：https://a9a.xyz】12
-  - X·RU【机场推荐：https://a9a.xyz】13
-  - X·NL【机场推荐：https://a9a.xyz】14
-  - X·RU【机场推荐：https://a9a.xyz】15
-  - X·RU【机场推荐：https://a9a.xyz】16
-  - X·DE【机场推荐：https://a9a.xyz】17
-  - X·GB【机场推荐：https://a9a.xyz】18
-  - X·HK【机场推荐：https://a9a.xyz】19
-  - X·NL【机场推荐：https://a9a.xyz】20
-  - X·CA【机场推荐：https://a9a.xyz】22
-  - X·US【机场推荐：https://a9a.xyz】23
-  - X·US【机场推荐：https://a9a.xyz】24
-  - X·RU【机场推荐：https://a9a.xyz】25
+  - X·KZ【机场推荐：https://a9a.xyz】10
+  - X·SG【机场推荐：https://a9a.xyz】11
+  - X·AT【机场推荐：https://a9a.xyz】12
+  - X·AT【机场推荐：https://a9a.xyz】13
+  - X·PL【机场推荐：https://a9a.xyz】14
+  - X·CA【机场推荐：https://a9a.xyz】15
+  - X·PL【机场推荐：https://a9a.xyz】16
+  - X·FR【机场推荐：https://a9a.xyz】17
+  - X·PL【机场推荐：https://a9a.xyz】18
+  - X·PL【机场推荐：https://a9a.xyz】19
+  - X·HK【机场推荐：https://a9a.xyz】20
+  - X·PL【机场推荐：https://a9a.xyz】21
+  - X·GB【机场推荐：https://a9a.xyz】22
+  - X·NL【机场推荐：https://a9a.xyz】23
 - name: 🚀 节点选择
   type: select
   proxies:
@@ -749,43 +564,30 @@ proxy-groups:
 - name: F·freevpnkeys
   type: select
   proxies:
-  - 'F·🛡️ Белый список РФ #01 • VLESS (2149ms)'
-  - 'F·🛡️ Белый список РФ #02 • VLESS (1547ms)'
-  - 'F·🛡️ Белый список РФ #03 • VLESS (2542ms)'
-  - 'F·🛡️ Белый список РФ #04 • VLESS (1911ms)'
-  - 'F·✨ Для Gemini #01 • 🇺🇸 [US] VLESS (112ms)'
-  - 'F·✨ Для Gemini #02 • 🇳🇱 [NL] VLESS (1699ms)'
-  - 'F·✨ Для Gemini #03 • 🇸🇬 [SG] VLESS (994ms)'
-  - 'F·✨ Для Gemini #04 • 🇺🇸 [US] VLESS (444ms)'
-  - 'F·🇩🇪 DE #03 • VMESS TLS (2854ms)'
-  - 'F·🇩🇪 DE #04 • VLESS Reality (1144ms)'
-  - 'F·🇸🇪 SE #02 • VLESS Reality (612ms)'
-  - 'F·🇸🇪 SE #03 • HYSTERIA2 TLS (723ms)'
-  - 'F·🇳🇱 NL #02 • VLESS TLS (466ms)'
-  - 'F·🇳🇱 NL #04 • VLESS Reality (1338ms)'
-  - 'F·🇷🇺 RU #01 • HYSTERIA2 TLS [Белый список] (2198ms)'
-  - 'F·🇷🇺 RU #02 • VLESS TLS [Белый список] (522ms)'
-  - 'F·🇷🇺 RU #03 • VLESS Reality [Белый список] (1364ms)'
-  - 'F·🇷🇺 RU #04 • VLESS Reality [Белый список] (793ms)'
-  - 'F·🇵🇱 PL #01 • VLESS Reality (1013ms)'
-  - 'F·🇵🇱 PL #02 • VLESS TLS (1243ms)'
-  - 'F·🇮🇹 IT #01 • VLESS Reality (489ms)'
-  - 'F·🇮🇪 IE #01 • VLESS Reality (757ms)'
-  - 'F·🇲🇩 MD #01 • VLESS Reality (1102ms)'
-  - 'F·🇨🇦 CA #01 • VLESS Reality (132ms)'
-  - 'F·🇦🇱 AL #01 • VLESS Reality (443ms)'
-  - 'F·🇷🇴 RO #01 • VLESS Reality (2999ms)'
-  - 'F·🇷🇴 RO #02 • VLESS Reality (1624ms)'
-  - 'F·🇷🇴 RO #03 • VLESS Reality (585ms)'
-  - 'F·🇭🇰 HK #01 • VLESS Reality (1151ms)'
-  - 'F·🇰🇪 KE #01 • VLESS Reality (1102ms)'
-  - 'F·🇬🇧 GB #01 • VLESS Reality (263ms)'
-  - 'F·🇨🇿 CZ #01 • VLESS Reality (884ms)'
+  - 'F·🛡️ Белый список РФ #01 • VLESS (2003ms)'
+  - 'F·✨ Для Gemini #01 • 🇮🇹 [IT] VLESS (1393ms)'
+  - 'F·✨ Для Gemini #02 • 🇩🇪 [DE] VLESS (655ms)'
+  - 'F·✨ Для Gemini #03 • 🇺🇸 [US] VLESS (145ms)'
+  - 'F·✨ Для Gemini #04 • 🇳🇱 [NL] VLESS (363ms)'
+  - 'F·▶️ Для YouTube #03 • 🇲🇩 [MD] VLESS (415ms)'
+  - 'F·🇩🇪 DE #04 • VLESS Reality (1506ms)'
+  - 'F·🇵🇱 PL #02 • VLESS Reality (790ms)'
+  - 'F·🇺🇸 US #02 • VLESS Reality (735ms)'
+  - 'F·🇺🇸 US #03 • VLESS Reality (561ms)'
+  - 'F·🇺🇸 US #04 • VLESS Reality (547ms)'
+  - 'F·🇳🇱 NL #02 • VLESS Reality (1370ms)'
+  - 'F·🇳🇱 NL #03 • VLESS Reality (615ms)'
+  - 'F·🇳🇱 NL #04 • VLESS Reality (3104ms)'
+  - 'F·🇱🇹 LT #01 • VLESS Reality (960ms)'
+  - 'F·🇨🇦 CA #01 • VLESS Reality (737ms)'
+  - 'F·🇨🇭 CH #01 • VLESS Reality (2548ms)'
+  - 'F·🇷🇺 RU #01 • VLESS Reality [Белый список] (1007ms)'
+  - 'F·🇸🇪 SE #01 • HYSTERIA2 TLS (750ms)'
 - name: X·xrayvip
   type: select
   proxies:
   - X·IT【机场推荐：https://a9a.xyz】1
-  - X·CA【机场推荐：https://a9a.xyz】2
+  - X·IT【机场推荐：https://a9a.xyz】2
   - X·IT【机场推荐：https://a9a.xyz】3
   - X·IT【机场推荐：https://a9a.xyz】4
   - X·IT【机场推荐：https://a9a.xyz】5
@@ -793,21 +595,20 @@ proxy-groups:
   - X·IT【机场推荐：https://a9a.xyz】7
   - X·IT【机场推荐：https://a9a.xyz】8
   - X·IT【机场推荐：https://a9a.xyz】9
-  - X·IT【机场推荐：https://a9a.xyz】10
-  - X·NL【机场推荐：https://a9a.xyz】11
-  - X·NL【机场推荐：https://a9a.xyz】12
-  - X·RU【机场推荐：https://a9a.xyz】13
-  - X·NL【机场推荐：https://a9a.xyz】14
-  - X·RU【机场推荐：https://a9a.xyz】15
-  - X·RU【机场推荐：https://a9a.xyz】16
-  - X·DE【机场推荐：https://a9a.xyz】17
-  - X·GB【机场推荐：https://a9a.xyz】18
-  - X·HK【机场推荐：https://a9a.xyz】19
-  - X·NL【机场推荐：https://a9a.xyz】20
-  - X·CA【机场推荐：https://a9a.xyz】22
-  - X·US【机场推荐：https://a9a.xyz】23
-  - X·US【机场推荐：https://a9a.xyz】24
-  - X·RU【机场推荐：https://a9a.xyz】25
+  - X·KZ【机场推荐：https://a9a.xyz】10
+  - X·SG【机场推荐：https://a9a.xyz】11
+  - X·AT【机场推荐：https://a9a.xyz】12
+  - X·AT【机场推荐：https://a9a.xyz】13
+  - X·PL【机场推荐：https://a9a.xyz】14
+  - X·CA【机场推荐：https://a9a.xyz】15
+  - X·PL【机场推荐：https://a9a.xyz】16
+  - X·FR【机场推荐：https://a9a.xyz】17
+  - X·PL【机场推荐：https://a9a.xyz】18
+  - X·PL【机场推荐：https://a9a.xyz】19
+  - X·HK【机场推荐：https://a9a.xyz】20
+  - X·PL【机场推荐：https://a9a.xyz】21
+  - X·GB【机场推荐：https://a9a.xyz】22
+  - X·NL【机场推荐：https://a9a.xyz】23
 rules:
 - GEOIP,LAN,DIRECT
 - GEOSITE,CN,DIRECT
