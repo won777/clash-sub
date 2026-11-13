@@ -5,34 +5,6 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: OR·DE Nuremberg·V·d33d
-  type: vless
-  server: 62.83.95.178
-  port: 443
-  uuid: ff60f358-8291-4341-a12e-7cd139da0786
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: YD2nm1z3qE7G9pReN7sqUcqwiz9LBUWGagDXc0RqAUI
-    short-id: 7e25c8ab6ed25235
-  client-fingerprint: chrome
-- name: OR·DE Nuremberg·V·2071
-  type: vless
-  server: 88.198.149.218
-  port: 443
-  uuid: 684e35c7-b987-4a9f-882e-51295c3f749f
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: OJIM4cof8PJgi-aCvplAul3FQnmCELhvcEsCo6S3fm8
-    short-id: fe0a23d7b6682b70
-  client-fingerprint: chrome
 - name: OR·DE Nuremberg·V·1e40
   type: vless
   server: 2.28.194.230
@@ -46,20 +18,6 @@ proxies:
   reality-opts:
     public-key: LK_5ol3189d1OTXVbQLZ4XE0kT5PwY9X8YknBMCx60k
     short-id: eb807238c2e3102b
-  client-fingerprint: chrome
-- name: OR·DE Nuremberg·V·abf1
-  type: vless
-  server: 62.83.76.104
-  port: 443
-  uuid: 7bfd4fbd-9966-4ba5-9f2a-dd1f76f24e44
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: QWl8eML1Ph1TKG_myUD3FNtQV68h8snF-ec1LR4DVAo
-    short-id: 6867de437a1aada4
   client-fingerprint: chrome
 - name: OR·DE Nuremberg·V·c846
   type: vless
@@ -75,33 +33,19 @@ proxies:
     public-key: PTt4_gUBvmzvxlU7EF00zDBP87exWxg52AmFNLJ4ymM
     short-id: 388e591a95a7bf5c
   client-fingerprint: chrome
-- name: OR·DE Nuremberg·V·6b12
+- name: OR·DE Nuremberg·V·d33d
   type: vless
-  server: 62.83.81.80
+  server: 62.83.95.178
   port: 443
-  uuid: 7a302493-8c27-470f-9824-ecdc318b25e6
+  uuid: ff60f358-8291-4341-a12e-7cd139da0786
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   servername: www.cloudflare.com
   reality-opts:
-    public-key: XfqRi7QItpOMnRmON1x15rFcn-0hwTSnMZt6yebm7Dg
-    short-id: 4d61f03b22765ea7
-  client-fingerprint: chrome
-- name: OR·DE Nuremberg·V·cc8c
-  type: vless
-  server: 62.83.88.110
-  port: 443
-  uuid: 73d0bccd-1e39-4369-9395-d762b66c04a0
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: 5ya0Bh9FgwO2v1toTZYu8JUTZ-mwa_bCTD6McVe-qy8
-    short-id: 00b28a6b22afc154
+    public-key: YD2nm1z3qE7G9pReN7sqUcqwiz9LBUWGagDXc0RqAUI
+    short-id: 7e25c8ab6ed25235
   client-fingerprint: chrome
 - name: OR·BG Sofia·V·974a
   type: vless
@@ -117,20 +61,6 @@ proxies:
     public-key: LSMlI5kxYWEmgw-6T9u2wOzTLYORgQUSjIeVvfUHBRU
     short-id: 44fc6601a52588f6
   client-fingerprint: chrome
-- name: OR·US Los Angeles·V·3676
-  type: vless
-  server: 216.144.226.224
-  port: 443
-  uuid: 8547a4d2-cb78-4ef9-a15e-0eef4765eb9e
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: zRmEeZmk8WTmlHfFsvZU2QH_uI8DOp2Tlo2-tVbjSFA
-    short-id: dec7229a568928b1
-  client-fingerprint: chrome
 - name: OR·DE Falkenstein/Vogtl.·V·7f41
   type: vless
   server: 23.88.47.215
@@ -145,33 +75,19 @@ proxies:
     public-key: I0Y6iTUdtkPK30ukKMnHO05f2ZbZdamPJoQOvC0FuUA
     short-id: 454460a39dfe5d63
   client-fingerprint: chrome
-- name: OR·DE Nuremberg·V·6cba
+- name: OR·DE Nuremberg·V·cc8c
   type: vless
-  server: 2.28.70.17
+  server: 62.83.88.110
   port: 443
-  uuid: 060d0dd3-da2a-4de5-a42e-335217ebf96c
+  uuid: 73d0bccd-1e39-4369-9395-d762b66c04a0
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   servername: www.cloudflare.com
   reality-opts:
-    public-key: 4ytFNY3dBdHnLNSH3IhZ_SJgAS1-jf4UMPwE1jGH2D0
-    short-id: 6a8e43c2f30a39fa
-  client-fingerprint: chrome
-- name: OR·US Los Angeles·V·30e8
-  type: vless
-  server: 179.255.146.196
-  port: 443
-  uuid: e822bbf7-457b-425f-bcf0-5cec1a927d5f
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  reality-opts:
-    public-key: MLZseN2LyEq2ou3sXX1xw7wgpOxUPRryEimlxyxVbGc
-    short-id: 81faa4496c67311f
+    public-key: 5ya0Bh9FgwO2v1toTZYu8JUTZ-mwa_bCTD6McVe-qy8
+    short-id: 00b28a6b22afc154
   client-fingerprint: chrome
 - name: OR·FI Helsinki·V·6d51
   type: vless
@@ -187,19 +103,89 @@ proxies:
     public-key: kfh33oY0vgAiCnnaIeZE9Vd0i17AIGIvqq8l9uYYZUs
     short-id: 80be5e4b11cb4daf
   client-fingerprint: chrome
-- name: OR·AU Sydney·V·7586
+- name: OR·DE Nuremberg·V·2071
   type: vless
-  server: 3.25.216.38
+  server: 88.198.149.218
   port: 443
-  uuid: 17aaabe3-3b4b-4c5c-8e0c-7977ecee0e21
+  uuid: 684e35c7-b987-4a9f-882e-51295c3f749f
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   servername: www.cloudflare.com
   reality-opts:
-    public-key: 493Uab3KLeQRjd7iTXRYva-mAABOel_BY7FQ8GP9plg
-    short-id: 8f5e5552a0b3244d
+    public-key: OJIM4cof8PJgi-aCvplAul3FQnmCELhvcEsCo6S3fm8
+    short-id: fe0a23d7b6682b70
+  client-fingerprint: chrome
+- name: OR·DE Nuremberg·V·abf1
+  type: vless
+  server: 62.83.76.104
+  port: 443
+  uuid: 7bfd4fbd-9966-4ba5-9f2a-dd1f76f24e44
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: QWl8eML1Ph1TKG_myUD3FNtQV68h8snF-ec1LR4DVAo
+    short-id: 6867de437a1aada4
+  client-fingerprint: chrome
+- name: OR·DE Nuremberg·V·6cba
+  type: vless
+  server: 2.28.70.17
+  port: 443
+  uuid: 060d0dd3-da2a-4de5-a42e-335217ebf96c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 4ytFNY3dBdHnLNSH3IhZ_SJgAS1-jf4UMPwE1jGH2D0
+    short-id: 6a8e43c2f30a39fa
+  client-fingerprint: chrome
+- name: OR·DE Nuremberg·V·6b12
+  type: vless
+  server: 62.83.81.80
+  port: 443
+  uuid: 7a302493-8c27-470f-9824-ecdc318b25e6
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: XfqRi7QItpOMnRmON1x15rFcn-0hwTSnMZt6yebm7Dg
+    short-id: 4d61f03b22765ea7
+  client-fingerprint: chrome
+- name: OR·US Los Angeles·V·3676
+  type: vless
+  server: 216.144.226.224
+  port: 443
+  uuid: 8547a4d2-cb78-4ef9-a15e-0eef4765eb9e
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: zRmEeZmk8WTmlHfFsvZU2QH_uI8DOp2Tlo2-tVbjSFA
+    short-id: dec7229a568928b1
+  client-fingerprint: chrome
+- name: OR·US Los Angeles·V·30e8
+  type: vless
+  server: 179.255.146.196
+  port: 443
+  uuid: e822bbf7-457b-425f-bcf0-5cec1a927d5f
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: MLZseN2LyEq2ou3sXX1xw7wgpOxUPRryEimlxyxVbGc
+    short-id: 81faa4496c67311f
   client-fingerprint: chrome
 - name: OR·HK Hong Kong·V·03b8
   type: vless
@@ -215,25 +201,39 @@ proxies:
     public-key: jeSTi0fWEQYjFq8mlINbsoToMxpaIDS6_PNF8pdqjiI
     short-id: b463c276a9d74de3
   client-fingerprint: chrome
+- name: OR·AU Sydney·V·7586
+  type: vless
+  server: 3.25.216.38
+  port: 443
+  uuid: 17aaabe3-3b4b-4c5c-8e0c-7977ecee0e21
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 493Uab3KLeQRjd7iTXRYva-mAABOel_BY7FQ8GP9plg
+    short-id: 8f5e5552a0b3244d
+  client-fingerprint: chrome
 proxy-groups:
 - name: 手動選擇
   type: select
   proxies: &id001
-  - OR·DE Nuremberg·V·d33d
-  - OR·DE Nuremberg·V·2071
   - OR·DE Nuremberg·V·1e40
-  - OR·DE Nuremberg·V·abf1
   - OR·DE Nuremberg·V·c846
-  - OR·DE Nuremberg·V·6b12
-  - OR·DE Nuremberg·V·cc8c
+  - OR·DE Nuremberg·V·d33d
   - OR·BG Sofia·V·974a
-  - OR·US Los Angeles·V·3676
   - OR·DE Falkenstein/Vogtl.·V·7f41
-  - OR·DE Nuremberg·V·6cba
-  - OR·US Los Angeles·V·30e8
+  - OR·DE Nuremberg·V·cc8c
   - OR·FI Helsinki·V·6d51
-  - OR·AU Sydney·V·7586
+  - OR·DE Nuremberg·V·2071
+  - OR·DE Nuremberg·V·abf1
+  - OR·DE Nuremberg·V·6cba
+  - OR·DE Nuremberg·V·6b12
+  - OR·US Los Angeles·V·3676
+  - OR·US Los Angeles·V·30e8
   - OR·HK Hong Kong·V·03b8
+  - OR·AU Sydney·V·7586
 - name: 🚀 节点选择
   type: select
   proxies:
